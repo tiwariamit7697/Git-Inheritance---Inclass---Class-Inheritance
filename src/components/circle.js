@@ -1,12 +1,9 @@
 // import using require
 // declare class
-
-const { default: Shape } = require("./shape");
-
 //export class using module.exports
 //import Shape from './shape';
-let shape=require('./shape.js');
-module.exports=class Circle extends Shape
+let myclass=require('./shape.js');
+module.exports=class Circle extends myclass
 {
     constructor()
     {
