@@ -2,8 +2,8 @@
 // declare class
 //export class using module.exports
 //import Shape from './shape';
-let Shape=require('./shape.js');
-module.exports=class Circle extends Shape
+const Shape=require('./shape.js');
+class Circle extends Shape
 {
     constructor()
     {
@@ -15,3 +15,4 @@ module.exports=class Circle extends Shape
         return 3.14*5*5;
     }
 }
+module.exports=Circle;

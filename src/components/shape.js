@@ -1,6 +1,6 @@
 // declare class
 // export class using module.exports
-module.exports=class Shape
+class Shape
 {
     constructor()
     {
@@ -16,3 +16,4 @@ module.exports=class Shape
         return 0;
     }
 }
+module.exports=Shape;
