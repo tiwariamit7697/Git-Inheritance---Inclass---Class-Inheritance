@@ -4,9 +4,9 @@
 const { default: Shape } = require("./shape");
 
 // export class using module.exports
-//import Shape from './shape';
-let Persion=require('./shape.js');
-module.exports= class Circle extends Shape
+import Shape from './shape';
+//let Persion=require('./shape.js');
+export default class Circle extends Shape
 {
     constructor()
     {
