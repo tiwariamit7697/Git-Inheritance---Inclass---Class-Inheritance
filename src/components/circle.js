@@ -2,8 +2,8 @@
 // declare class
 //export class using module.exports
 //import Shape from './shape';
-let myclass=require('./shape.js');
-module.exports=class Circle extends myclass
+let Shape=require('./shape.js');
+module.exports=class Circle extends Shape
 {
     constructor()
     {
